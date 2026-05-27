@@ -1,0 +1,11 @@
+**/node_modules/
+**/.angular/
+**/dist/
+
+DS_Store
+.env
+
+# Modules
+03-gifts-app/src/environments/environment.development.ts
+03-gifts-app/src/environments/environment.ts
+
