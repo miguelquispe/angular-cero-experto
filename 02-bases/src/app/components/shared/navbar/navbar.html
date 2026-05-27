@@ -1,0 +1,16 @@
+<style>
+  nav a.active {
+    font-weight: bold;
+    color: blue;
+  }
+</style>
+<nav>
+  <a
+    routerLink="/"
+    routerLinkActive="active"
+    [routerLinkActiveOptions]="{ exact: true }"
+    >Contado</a
+  >
+  <a [routerLink]="['/hero']" [routerLinkActive]="'active'">Hero</a>
+  <a [routerLink]="['/dragonball']" [routerLinkActive]="'active'">Dragonball</a>
+</nav>
